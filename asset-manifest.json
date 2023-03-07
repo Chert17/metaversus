@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/metaversus/static/css/main.59428920.css",
+    "main.js": "/metaversus/static/js/main.dc72fcbc.js",
+    "static/media/people-card-01.png": "/metaversus/static/media/people-card-01.b6d8b6458337a490d77e.png",
+    "static/media/people-card-02.png": "/metaversus/static/media/people-card-02.68027034f06e309dfbdc.png",
+    "index.html": "/metaversus/index.html",
+    "main.59428920.css.map": "/metaversus/static/css/main.59428920.css.map",
+    "main.dc72fcbc.js.map": "/metaversus/static/js/main.dc72fcbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59428920.css",
+    "static/js/main.dc72fcbc.js"
+  ]
+}
