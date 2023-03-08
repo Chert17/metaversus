@@ -31,13 +31,13 @@ const Navbar = () => {
           <button type="button" onClick={() => setShowMenu(prev => !prev)}>
             {!showMenu ? (
               <img
-                src="menu.svg"
+                src="../constants/img/menu.svg"
                 alt="menu"
                 className="w-[24px] h-[24px] object-contain"
               />
             ) : (
               <img
-                src="close-menu.svg"
+                src="../constants/img/close-menu.svg"
                 alt="menu"
                 className="w-[24px] h-[24px] object-contain"
               />

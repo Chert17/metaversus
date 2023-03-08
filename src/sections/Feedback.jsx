@@ -38,7 +38,7 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="planet-09.png"
+          src="../constants/img/planet-09.png"
           alt="planet-09"
           className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
         />
@@ -49,7 +49,7 @@ const Feedback = () => (
           className="lg:block hidden absolute -left-[10%] top-[3%] cursor-pointer"
         >
           <img
-            src="stamp.png"
+            src="../constants/img/stamp.png"
             alt="stamp"
             className="w-[155px] h-[155px] object-contain"
           />
