@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-import styles from "../styles";
-import { slideIn, staggerContainer, textVariant } from "../utils/motion";
+import styles from '../styles';
+import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
@@ -27,7 +27,7 @@ const Hero = () => (
       </div>
 
       <motion.div
-        variants={slideIn("right", "tween", 0.2, 1)}
+        variants={slideIn('right', 'tween', 0.2, 1)}
         className="relative w-full md:-mt-[20px] -mt-[12px]"
       >
         <div className="absolute w-full hero-gradient rounded-tl-[140px] z-0 -top-[30px]" />
@@ -39,7 +39,7 @@ const Hero = () => (
         <a href="#explore">
           <div className="w-full flex justify-end sn:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
             <img
-              src="/stamp.png"
+              src="stamp.png"
               alt="stamp"
               className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
             />

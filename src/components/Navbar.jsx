@@ -9,7 +9,6 @@ const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const handleToogleMenu = e => {
-    console.log(e.target);
     if (e.target.nodeName !== 'A') return;
     setShowMenu(false);
   };
@@ -32,13 +31,13 @@ const Navbar = () => {
           <button type="button" onClick={() => setShowMenu(prev => !prev)}>
             {!showMenu ? (
               <img
-                src={'/menu.svg'}
+                src="menu.svg"
                 alt="menu"
                 className="w-[24px] h-[24px] object-contain"
               />
             ) : (
               <img
-                src="/close-menu.svg"
+                src="close-menu.svg"
                 alt="menu"
                 className="w-[24px] h-[24px] object-contain"
               />
