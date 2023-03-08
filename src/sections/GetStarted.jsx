@@ -4,6 +4,7 @@ import styles from '../styles';
 import { startingFeatures } from '../constants';
 import { StartSteps, TitleText, TypingText } from '../components';
 import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
+import getStartedImg from '../constants/img/get-started.png';
 
 const GetStarted = () => (
   <section id="get-started" className={`${styles.paddings} relative z-10`}>
@@ -19,7 +20,7 @@ const GetStarted = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="../constants/img/get-started.png"
+          src={getStartedImg}
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />

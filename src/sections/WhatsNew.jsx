@@ -4,6 +4,7 @@ import styles from '../styles';
 import { newFeatures } from '../constants';
 import { NewFeatures, TitleText, TypingText } from '../components';
 import { planetVariants, staggerContainer, fadeIn } from '../utils/motion';
+import whatsNewImg from '../constants/img/whats-new.png';
 
 const WhatsNew = () => (
   <section id="what-new" className={`${styles.paddings} relative z-10`}>
@@ -32,7 +33,7 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="../constants/img/whats-new.png"
+          src={whatsNewImg}
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />

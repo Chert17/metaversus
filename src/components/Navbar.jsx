@@ -4,6 +4,8 @@ import { useState } from 'react';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 import Menu from './Menu';
+import menuIcon from '../constants/img/menu.svg';
+import closeMenuIcon from '../constants/img/close-bold-svgrepo-com.svg';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -31,13 +33,13 @@ const Navbar = () => {
           <button type="button" onClick={() => setShowMenu(prev => !prev)}>
             {!showMenu ? (
               <img
-                src="../constants/img/menu.svg"
+                src={menuIcon}
                 alt="menu"
                 className="w-[24px] h-[24px] object-contain"
               />
             ) : (
               <img
-                src="../constants/img/close-menu.svg"
+                src={closeMenuIcon}
                 alt="menu"
                 className="w-[24px] h-[24px] object-contain"
               />
